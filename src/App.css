@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.App {
+  min-height: 100vh;
+  max-width: 1900px;
+  margin: 0rem auto;
+  overflow-x: hidden
+
+}
+body {
+  background-color: transparent;
+}
+/* nav {
+  position: sticky;
+  top: 0;
+  padding: 0 4rem 0 4rem;
+  display: flex;   
+  align-items: center;
+  background-color: white;
+  z-index: 1000;
+  animation: quickBounce ease .5s forwards .1s;
+}
+@keyframes quickBounce {
+  0% {transform: translateY(0);opacity:0;}
+  50% {transform: translateY(5%);}
+  100% {transform: translateY(0);opacity:1;}
+}
+.nav-left-container{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  min-height: 90px;
+  width: 80%;
+}
+
+.nav-logo-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-menu-container {
+  display: none;
+}
+
+#footer-logo{
+  height: 3.5rem;
+}
+.consumer-email-submit-footer p{
+  padding: 1rem 0;
+}
+.quiz-link-container {
+  width: 20%; 
+  display: flex; 
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  font-size: 1rem;
+}
+.navbar-links-container a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+#for-wellness-companies {
+  margin-left:2rem;
+}
+.navbar-links-container a:hover {
+  color: #185951;
+}
+
+
+.navbar-menu-container svg {
+  font-size: 2rem;
+  cursor: pointer;
+} */
+/* 
+.home-container {
+  position: relative;
+  display: flex;
+  padding-left: 3rem;
+  height: 100vh; 
+
+}
+
+.home-image-section {
+  width: 50%;
+  display: flex; 
+  justify-content: end;
+  position: relative;
+}
+
+.home-image-leaf{
+  height: 400px;
+  position: absolute;
+  bottom: 0;
+  right: 85%;
+  animation: slideDown ease .6s forwards .3s;
+
+}
+.home-image-girl-wrapper{
+  overflow: hidden;
+  background-color: #f6d06d;
+
+}
+
+.home-image-girl {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 60% 0;
+  position: relative;
+  left:-100%;
+  animation: slideLeft linear .6s forwards .3s;
+}
+@keyframes slideLeft {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(100%);opacity:1;}
+}
+
+.home-text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2rem;
+  width: 80%;
+}
+.yellow-underline{
+  width: auto;
+  background-size: auto 20%;
+  background-image: url('./Components/Images/yellow-line.jpg');
+  background-repeat: no-repeat;
+  background-position-y: 85%;
+}
+
+.primary-heading {
+  font-size: clamp(3rem, 6vw, 4rem);
+  color: black;
+  max-width: 100%;
+  font-weight: 500;
+  position: relative;
+  top:-40px;
+  left:5px;
+  animation: slideDown ease .5s forwards .1s;
+
+}
+
+@keyframes slideDown {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(40px);opacity:1;}
+}
+
+
+.consumer-email-submit{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+#email-button{
+  margin-left: 1rem;
+  z-index: 500;
+} */
+/* 
+.about-section-container {
+  margin: 5rem 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.about-image-section {
+  height: 100%;
+  margin-left: 1rem;
+  flex-basis: 55%;
+  background-color: #185951;
+  overflow: hidden;
+
+}
+.about-text-section {
+  padding: 2.5rem;
+  position: absolute;
+  bottom: 22%;
+  right: 8%;
+  background-color: white;
+}
+.yellow-lines{
+  height: 40%;
+  position: absolute;
+  top: -40%;
+  right: -10%;
+}
+#about-girl-smile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 100% 0;
+} */
+
+/* .card-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  height: fit-content;
+}
+.card-img {
+  width: 100%;
+}
+.card-title {
+  font-weight: 500;
+  margin: 0.5rem 5%;
+}
+.card-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.checkmark{
+  height: 1.5rem;
+}
+.card-description {
+  margin: 0.5rem 5%;
+} */
+/* .standards-section-container{
+  background-color: #faf7f4;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 25vh 90vh;
+}
+
+#standards-text-header{
+  margin-top: 1rem;
+  grid-column: 1/3;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.standards-image-section{
+  grid-column: 1/2;
+  grid-row: 2;
+  margin: 2rem;
+  background-color: #185951;
+  overflow: hidden;
+}
+.standards-list{
+  grid-column: 2/3;
+  grid-row: 2;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-size: 112%;
+}
+
+#standards-product-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 50%;
+} */
+/* .beta-quiz-section-container{
+  padding: 1rem;
+  background-image: url('./Components/Images/beta-quiz-img.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.beta-quiz-section{
+  padding: 3rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.beta-quiz-section h1 {
+  color: white;
+  font-weight: 400;
+}
+.beta-quiz-section ol {
+  color: white;
+  font-weight: 400;
+  padding-bottom: 2rem;
+} */
+/* .product-inquiry-section-container{
+  background-color: #faf7f4;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 4rem;
+}
+#contact-button{
+  margin: 1rem 0 1rem 0;
+} */
+/* footer{
+  height: 30vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 70% 30%;
+  align-items: center; 
+}
+.leftFooter{
+  grid-column: 1/2;
+  grid-row: 1;
+  padding-left: 4rem;
+ 
+}
+.rightFooter{
+  grid-column: 2/3;
+  grid-row: 1;
+  display: flex;
+  justify-content: end;
+  padding-right: 4rem;
+}
+.bottomFooter{
+  grid-column: 1/3;
+  grid-row: 2;
+  width: 90%;
+} */
+/* #standards-text-header h1 {
+  font-weight: 500;
+} */
+
+/* @media (max-width: 1000px) {
+  .navbar-links-container a {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  
+} */
+@media (max-width: 890px) {
+  /* nav{
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-logo-container {
+    max-width: 140px;
+  }
+  .home-image-girl,
+  .quiz-link-container,
+  .navbar-links-container{
+    display: none;
+  }
+  .home-image-leaf{
+    left: 20%;
+    top: 0;
+  }
+  .navbar-menu-container {
+    display: flex;
+  } */
+  /* .home-container {
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: start;
+    height: 80vh;
+  }
+  .home-text-section{
+    flex-direction: column;
+    padding: 8rem 1rem 8rem 0;
+  }
+  .home-image-section {
+    width: 100%;
+    max-width: 900px;
+    position: absolute;
+    bottom: 75%;
+    left: 25%;
+  }
+  #email-button{
+    margin-left: 1rem;
+  } */
+  /* .about-section-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    margin-top: 2rem;
+    height: 150vh;
+}
+  .about-image-section{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .about-text-section{
+    position:relative;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+  }
+  .yellow-lines{
+    height: 9rem;
+    width: auto;
+    position: absolute;
+    top: 55rem;
+    right: 1.5rem;
+  }
+  .about-text-section {
+    position: static;
+  } */
+  /* .standards-section-container{
+    margin: 2rem 0;
+  }
+  #standards-text-header{
+    padding: 2rem;
+  }
+  #standards-text-header h1, #standards-text-header p {
+    text-align: center;
+  }
+  .standards-list{
+    display: block;
+    padding-top: 2rem;
+  }
+#standards-product-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+} */
+
+/* .beta-quiz-section{
+  padding: 3rem;
+} */
+
+/* .consumer-email-submit-footer p{
+  display: none;
+}
+.consumer-email-submit-footer{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.consumer-email-submit-footer #email-button{
+  margin: 1rem 0 0 0;
+} */
+  .App {
+    max-width: 95vw;
+  }
+}
+/* @media (max-width: 620px) {
+  .consumer-email-submit{
+    flex-direction: column;
+    margin-top: 1rem;
+
+  }
+  #email-button{
+    margin: 1rem 0;
+    width: 100%;
+  }
+} */
