@@ -1,19 +1,18 @@
-import React from 'react';
-import './App.css';
-import Navbar from './Components/Navbar/Navbar'
+import React from "react";
+import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
 
-import Home from './Components/Home/Home'
-import About from './Components/About/About'
-import Standards from './Components/Standards/Standards'
-import BetaQuiz from './Components/BetaQuiz/BetaQuiz'
-import ProductInquiry from './Components/ProductInquiry/ProductInquiry'
-import Footer from './Components/Footer/Footer'
-
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Standards from "./Components/Standards/Standards";
+import BetaQuiz from "./Components/BetaQuiz/BetaQuiz";
+import ProductInquiry from "./Components/ProductInquiry/ProductInquiry";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Home />
       <About />
       <Standards />
