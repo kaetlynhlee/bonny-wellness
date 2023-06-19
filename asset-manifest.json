@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/bonny-wellness/static/css/main.d8ce1611.css",
-    "main.js": "/bonny-wellness/static/js/main.6c20e901.js",
+    "main.js": "/bonny-wellness/static/js/main.47708908.js",
     "static/media/checkmark.png": "/bonny-wellness/static/media/checkmark.1c273495f3ee934a31d6.png",
-    "static/media/leaf-shape.svg": "/bonny-wellness/static/media/leaf-shape.1231d22d0d210de83f3d66d7e383ffe5.svg",
     "static/media/smiling-girl.jpg": "/bonny-wellness/static/media/smiling-girl.04aaad36e9f63b6f3fd5.jpg",
     "index.html": "/bonny-wellness/index.html",
     "main.d8ce1611.css.map": "/bonny-wellness/static/css/main.d8ce1611.css.map",
-    "main.6c20e901.js.map": "/bonny-wellness/static/js/main.6c20e901.js.map"
+    "main.47708908.js.map": "/bonny-wellness/static/js/main.47708908.js.map"
   },
   "entrypoints": [
     "static/css/main.d8ce1611.css",
-    "static/js/main.6c20e901.js"
+    "static/js/main.47708908.js"
   ]
 }
