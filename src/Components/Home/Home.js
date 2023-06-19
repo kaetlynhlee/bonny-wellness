@@ -16,7 +16,7 @@ const Home = () => {
       <div className="home-image-section">
         <img
           className="home-image-leaf"
-          src={require("../Images/leaf-shape.svg")}
+          src={require("../Images/leaf-shape.png")}
           alt="leaf illustration"
         />
         <div className="home-image-girl-wrapper">
