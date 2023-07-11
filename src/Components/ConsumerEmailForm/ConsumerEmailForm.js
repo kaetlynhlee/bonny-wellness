@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import TextField from "@mui/material/TextField";
 import Button from "../CustomButton/CustomButton";
-import "./ConsumerEmailForm.css";
 
 const ConsumerEmailForm = ({ className }) => {
   const [email, setEmail] = useState("");
